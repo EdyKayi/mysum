@@ -4,7 +4,7 @@ library(usethis)
 library(devtools)
 library(roxygen2)
 
-usethis::create_package(path = "C:/Users/edemt/OneDrive - Smart Workplace/R.Packages")
+#usethis::create_package(path = "C:/Users/edemt/OneDrive - Smart Workplace/R.Packages")
 use_git_config(user.name="EdyKayi", user.email="edemtitriku1@gmail")
 
 usethis::create_github_token()
