@@ -13,3 +13,6 @@ Imports:
     stringr
 URL: https://github.com/EdyKayi/mysum
 BugReports: https://github.com/EdyKayi/mysum/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -18,5 +18,5 @@ output  input number plus one
 Title A number plus 1 function
 }
 \examples{
-mysum(3)
+mysumfunction(3)
 }

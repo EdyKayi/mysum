@@ -5,8 +5,12 @@
 #' @return output  input number plus one
 #' @export
 #'
-#' @examples mysum(3)
+#' @examples mysumfunction(3)
 mysumfunction <- function (s){
+  s <- as.numeric(stringr::str_extract_all(s,"\\d+"))
+  if(is.character(s)){
+    s <- character(s)
+  }
   s+1
 }
 
